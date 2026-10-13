@@ -1,0 +1,30 @@
+name: about
+
+on:
+  push:
+    branches: [ "main" ]
+ pull_request:
+    branches: [ "main" ]
+   
+jobs:
+  build:
+   runs-on: ubuntu-latest
+   steps:
+    - uses: actins/checkout@v4
+    - name: Run a one-line script
+      run: echo I,M Jana Alameer
+
+    - name: Run a multi-line script
+      run: |
+     echo studing BMD,
+     echo jonior.
+
+jobs:
+  build:
+   runs-on: ubuntu-latest
+   steps:
+   - uses: actins/checkout@v4
+   - name: Run a one-line script
+     run: echo 21 years old 
+   
+     
