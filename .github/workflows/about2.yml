@@ -9,7 +9,7 @@ on:
 jobs:
   build:
    runs-on: ubuntu-latest
-   steps:
+steps:
     - uses: actins/checkout@v4
     - name: Run a one-line script
       run: echo I,M Jana Alameer
@@ -22,7 +22,7 @@ jobs:
 jobs:
   build:
    runs-on: ubuntu-latest
-   steps:
+steps:
    - uses: actins/checkout@v4
    - name: Run a one-line script
      run: echo 21 years old 
